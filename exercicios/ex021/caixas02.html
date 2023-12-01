@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid rgb(214, 192, 165);
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid rgb(214, 192, 165);
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
+        }
+
+        section {
+            margin: 5px;
+            border: 1.5px dashed rgb(214, 192, 165);
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(179, 179, 179);
+        }
+
+        h1 {
+            background-color: lightgray;
+            text-align: center;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+        }
+
+        h2 {
+            background-color: lightgray;
+        }
+
+        a {
+            border: 1px solid black;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(99, 99, 99);
+            font-weight: bold;
+            padding: 2px;
+            margin-right: 10px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.685);
+        }
+
+        a:hover {
+            background-color: rgb(155, 155, 155);
+            box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.596);
+        }
+        
+        footer {
+            padding: 5px;
+            margin: 0px;
+            background-color: rgb(20, 20, 20);
+            color: white;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">INICIO</a>
+            <a href="#">NOTICIAS</a>
+            <a href="#">VÍDEOS</a>
+            <a href="#">TABELA</a>
+            <a href="#">SUPORTE</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae molestiae, beatae, fugit repellat alias iure laudantium autem necessitatibus in voluptate voluptates libero suscipit excepturi atque! Ipsa sint omnis suscipit deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis similique deserunt fugit ratione aspernatur commodi eaque amet facere id odio, inventore quaerat obcaecati animi eligendi. Asperiores itaque corrupti facere voluptate?</p>
+                <aside>
+                    <p>Texto escrito por <span>Cristiano Ronaldo</span></p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Campeonato Brasileiro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, maxime nisi. Illum harum quia esse odit suscipit tempore enim quae possimus minus dolorem, iste quaerat autem, odio est, sint cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, doloremque! Exercitationem ab cupiditate nobis sint natus perferendis recusandae quam, incidunt provident fuga soluta commodi dicta minima vitae? Facilis, voluptate ratione.</p>
+                <aside>
+                    <p>Artigo escrito por <span>Neymar Jr</span></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>Marco Bertholdo</span></p>
+    </footer>
+</body>
+</html>

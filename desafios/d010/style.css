@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+@font-face {
+    font-family: "IDroid";
+    src: url('fonts/IDroid.otf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9E6C3;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top, #1A5C38, #3CD782);
+    text-align: center;
+    padding: 7px;
+    margin: -8px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+header > h1 {
+    text-shadow: 1px 1px 3px black;
+    margin: 32px 0px 0px 0px;
+    font-family: 'IDroid', Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+header > p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.664);
+    font-family: 'IBM Plex Mono', Helvetica, sans-serif;
+    text-align: center;
+    width: 500px;
+    margin: 10px auto 50px auto;
+}
+
+.bg-h1 {
+    color: #185534;
+    font-family: 'IDroid', Helvetica, sans-serif;
+    padding: 3px 3px 3px 20px;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, #8adfaf, transparent);
+}
+
+nav {
+    text-align: left;    
+}
+
+nav > a {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.61);
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover { 
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #103a23;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
+}
+
+
+main {
+    padding: 8px 20px 10px 20px;
+    margin: 10px 100px 10px 100px;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+#h1historia {
+    color: #185534;
+    margin: 5px;
+    font-family: 'IDroid', Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+article > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+aside > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+picture {
+    text-align: center;
+    display: block;
+}
+
+#midia {
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    background-color: #1A5C38;
+    text-align: center;
+    display: block;
+}
+
+.listas1, .listas2 {
+    font-weight: bold;
+    display: inline-block;
+    text-indent: 0px;
+    list-style: none;
+}
+
+.listas1 {
+    padding: 0px 200px 0px 100px;
+}
+
+.listas2 {
+    padding: 0px 0px 0px 100px;
+}
+
+#cor-titulo {
+    color: white;
+    background-color: #2FA866;
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#cor-bg {
+    background-color: #C5EBD6;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.514);
+}
+
+footer > p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+#span-footer:hover {
+    text-shadow: 1px 1px 3px black;
+}
+
+footer {
+    padding: 5px;
+    margin: 10px -8px 10px -8px;
+    text-align: center;
+    color: white;
+    background-color: #1A5C38;
+}
+
+#span-footer {
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color: #207548;
+    font-weight: bold;
+}
+
+#cor-bg > p {
+    margin: 20px;
+}
+
+a {
+    color: #185534;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2b9b5f;
+}
+
+#mais > p {
+    text-indent: 30px;
+}
+
+.span-li {
+    color: black;
+    text-decoration: underline;
+}
+
+.span-li:hover {
+    color: #1A5C38;
+    font-style: italic;
+}
+
+p > a:hover {
+    text-decoration: none
+}
