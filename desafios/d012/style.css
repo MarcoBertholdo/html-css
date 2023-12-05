@@ -20,13 +20,13 @@ header {
 }
 
 header h1 {
+    font-variant: small-caps;
     font-family: 'Limelight', Helvetica, sans-serif;
-    font-size: 6em;
+    font-size: 10vw;
 }
 
 header p, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
     font-size: 1em;
 }
 
@@ -44,12 +44,18 @@ main {
     background-color: white;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+}
+
 .normal > p {
     line-height: 2em;
     font-family: 'Merienda', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding: 50px 30px;
-    font-size: 2.8em;
+    padding: 30px;
+    font-size: 1em;
 }
 
 .imagem > p {
@@ -58,7 +64,7 @@ main {
     font-weight: bold;
     margin: 50px 30px;
     display: inline-block;
-    font-size: 2.8em;
+    font-size: 1em;
     color: white;
     background-color: rgba(0, 0, 0, 0.466);
     max-width: 50%;
