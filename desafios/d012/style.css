@@ -69,6 +69,7 @@ section {
     color: white;
     background-color: rgba(0, 0, 0, 0.466);
     border-radius: 50px 0px 50px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.678);
     max-width: 50%;
 }
 
