@@ -11,6 +11,7 @@
 
         table {
             width: 600px;
+            border-collapse: collapse;
         }
 
         thead {
@@ -19,9 +20,18 @@
         }
 
         td, th {
+            padding: 5px;
             height: 25px;
             text-align: center;
             border: 1px solid black;
+        }
+
+        .estado {
+            text-align: left;
+        }
+
+        tfoot {
+            background-color: #EAECF0;
         }
     </style>
 </head>
@@ -37,18 +47,31 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt="brandeira são paulo"> São Paulo</td>
-                <td>44 411 238</td>
+                <td class="estado"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt="brandeira são paulo"> São Paulo</td>
+                <td>44.411.238</td>
                 <td>21,88%</td>
             </tr>
             <tr>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" alt="bandeira minas gerais"> Minas Gerais</td>
-                <td>20 538 718</td>
+                <td class="estado"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" alt="bandeira minas gerais"> Minas Gerais</td>
+                <td>20.538.718</td>
                 <td>10,11%</td>
+            </tr>
+            <tr>
+                <td class="estado"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="bandeira rio de janeiro"> Rio de Janeiro</td>
+                <td>16.054.524</td>
+                <td>7,91%</td>
+            </tr>
+            <tr>
+                <td class="estado"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt="bandeira bahia"> Bahia</td>
+                <td>14.141.626</td>
+                <td>6,96%</td>
             </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th class="estado">Total de Habitantes</th>
+                <td><strong>95.146.106</strong></td>
+            </tr>
         </tfoot>
     </table>
 </body>
