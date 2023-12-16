@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #isubmite {
+            background-color: rgb(68, 109, 245);
+            border-radius: 10px;
+            padding: 5px 10px;
+            font-weight: bolder;
+        }
+
+        #isubmite:hover {
+            background-color: rgb(93, 119, 206);
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando Formularios</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar" id="isubmite">
+    </form>
+</body>
+</html>
