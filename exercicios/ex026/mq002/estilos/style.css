@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
