@@ -3,6 +3,5 @@
 /* CONFIGURAÇÕES DEITADAS */
 
 body {
-    background: url('../imagens/cev-landscape.jpg') no-repeat left center;
-    background-size: cover;
+    background: url('../imagens/cev-landscape.jpg') left bottom;
 }

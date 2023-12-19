@@ -3,6 +3,6 @@
 /* CONFIGURAÇÕES EM PÉ */
 
 body {
-    background: url('../imagens/cev-portrait.jpg') no-repeat top center;
-    background-size: cover;
+    background: #233EFF url('../imagens/cev-portrait.jpg') no-repeat;
+    background-size: contain;
 }
