@@ -12,6 +12,24 @@ Grandes Telas: Acima de 1200px
 
 
 @media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+    }
+    
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita por Marco Bertholdo.';
+    }
+
     #phone {display: none;}
     #tablet {display: none;}
     #print {display: block;}
@@ -23,6 +41,11 @@ Grandes Telas: Acima de 1200px
     body {
         background-image: url('../imagens/back-tablet.jpg');
     }
+
+    main {
+        width: 500px;
+    }
+
     #phone {display: none;}
     #tablet {display: block;}
     #print {display: none;}
@@ -35,6 +58,10 @@ Grandes Telas: Acima de 1200px
         background-image: url('../imagens/back-pc.jpg');
     }
 
+    main {
+        width: 600px;
+    }
+
     #phone {display: none;}
     #tablet {display: none;}
     #print {display: none;}
@@ -45,6 +72,10 @@ Grandes Telas: Acima de 1200px
 @media screen and (min-width: 1200px) { /* TELA GRANDE */
     body {
         background-image: url('../imagens/back-tv.jpg');
+    }
+
+    main {
+        width: 700px;
     }
 
     #phone {display: none;}
