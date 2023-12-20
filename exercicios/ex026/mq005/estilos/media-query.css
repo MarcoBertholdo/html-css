@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) {
     #burguer {
         display: none;
     }
@@ -25,64 +25,6 @@
     }
 
     main {
-        width: 70vw;
+        width: 800px;
     }
-}
-
-@media screen and (min-width: 1024px) and (max-width:1365px) {
-    #burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-    }
-
-    li {
-        display: inline-block;
-    }
-
-    li > a {
-        border: none;
-        margin-bottom: 5px;
-        background-color: #048d3b;
-        border-radius: 10px;
-    }
-
-    li > a:hover {
-        background-color: #047430;
-    }
-
-    main {
-        width: 60vw;
-    } 
-}
-
-@media screen and (min-width: 1367px) {
-    #burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-    }
-
-    li {
-        display: inline-block;
-    }
-
-    li > a {
-        border: none;
-        margin-bottom: 5px;
-        background-color: #048d3b;
-        border-radius: 10px;
-    }
-
-    li > a:hover {
-        background-color: #047430;
-    }
-
-    main {
-        width: 60vw;
-    } 
 }
