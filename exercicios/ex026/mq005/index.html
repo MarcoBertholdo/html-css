@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Globo Esporte</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Times</a></li>
+                <li><a href="#">Tabelas</a></li>
+                <li><a href="#">Jogos de hoje</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Corinthians vai receber bolada para sediar jogo da NFL em 2024; veja valores</h2>
+            <p>Neo Química Arena será palco de partida no segundo semestre; é a primeira vez de um jogo da liga de futebol americano no Brasil.
+                O Corinthians receberá 750 mil dólares livres (R$ 3,6 milhões na cotação atual) para realizar a primeira partida da National Football League (NFL), liga de futebol americano dos EUA, na América do Sul.<br><br>
+
+                O acordo foi costurado nos últimos meses e <strong>anunciado no último dia 13.</strong><br><br>
+
+                Pelo acordo, a NFL será responsável por toda a transformação do estádio para uma Arena de futebol americano, com todas as adaptações de gramado e arquibancadas.<br><br>
+
+                – Levar a NFL para novos continentes, países e cidades ao redor do mundo é um elemento importante do nosso plano para seguir crescendo o esporte globalmente. O Brasil se estabeleceu como um mercado-chave para a NFL, e estamos animados para jogar no país pela primeira vez - disse Roger Goodell, comissário da NFL, no dia do anúncio.<br><br>
+                
+                As equipes que se enfrentarão na Neo Química Arena serão definidas num futuro próximo.
+            </p>
+            
+            <p>
+            </p>
+
+            <p></p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
